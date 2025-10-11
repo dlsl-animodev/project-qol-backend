@@ -109,7 +109,7 @@ project-qol-backend/
 └── .env
 ```
 
-## 🧪 Testing
+## Testing
 
 Test the API using curl or any HTTP client:
 
@@ -130,7 +130,7 @@ curl "http://localhost:3002/"
 5. Open a Pull Request
 
 
-## 🔗 Links
+## Links
 
 - **Repository**: https://github.com/dlsl-animodev/project-qol-backend
 - **External Student API**: https://project-qol-backend.onrender.com
