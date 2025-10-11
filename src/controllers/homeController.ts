@@ -88,18 +88,19 @@ export default function getHome(_req: Request, res: Response): void {
     </head>
     <body>
       <div class="container">
-        <h1>DLSL Student API</h1>
-        <p class="subtitle">Retrieve student information quickly and easily.</p>
+        <h1>AnimoDev QOL Backend</h1>
+        <p class="subtitle">Log student attendance on events quickly and easily + save to Supabase.</p>
 
         <div class="api-info">
           <p><strong>Endpoint:</strong> <code>/api/student</code></p>
-          <p><strong>Usage:</strong> Add <code>?id=STUDENT_ID</code> to query.</p>
+          <p><strong>Usage:</strong> Add <code>?id=STUDENT_ID&event_code=EVENT_CODE</code> to query.</p>
         </div>
 
         <div class="api-info">
-          <p><strong>Example:</strong> <a href="/api/student?id=2023347381" target="_blank">/api/student?id=2023347381</a></p>
+          <p><strong>Example:</strong> <a href="/api/student?id=2023347381&event_code=TEST2025" target="_blank">/api/student?id=2023347381&event_code=TEST2025</a></p>
         </div>
 
+        <p class="footer">Event code is required!</p>
         <p class="footer">Server is running and ready to accept requests.</p>
       </div>
     </body>
