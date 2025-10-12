@@ -34,7 +34,7 @@ export async function getStudent(req: Request, res: Response): Promise<Response>
       });
     }
 
-    // 3.check for duplicate attendance
+    // 3. check for duplicate attendance
     const alreadyAttended = await hasAttendance(student.card_tag_uid, event.id);
     if (alreadyAttended) {
       return res.status(409).json({
