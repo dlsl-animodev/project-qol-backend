@@ -66,7 +66,7 @@ export async function hasAttendance(
 
     if (error) {
 
-        if (error.code === "PGRST116") {
+      if (error.code === "PGRST116") {
         // no rows returned, student hasn't logged their attendance
         return false;
       }
